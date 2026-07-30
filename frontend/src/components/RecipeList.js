@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import RecipeCard from './RecipeCard';
 import RecipeForm from './RecipeForm';
 
-const API_URL = 'http://localhost:5000/api/recipes';
+const API_URL = 'https://recipe-box-backend-j2rk.onrender.com/api/recipes';
 
 function RecipeList() {
     const [recipes, setRecipes] = useState([]);

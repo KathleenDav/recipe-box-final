@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_URL = 'http://localhost:5000/api/recipes';
+const API_URL = 'https://recipe-box-backend-j2rk.onrender.com/api/recipes';
 
 function RecipeCard({ recipe, onRecipeUpdated, onRecipeDeleted }) {
     const [isEditing, setIsEditing] = useState(false);
